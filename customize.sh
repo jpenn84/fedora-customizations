@@ -16,6 +16,10 @@ sudo dnf config-manager --set-enabled google-chrome
 sudo dnf -y install google-chrome-stable
 sudo dnf rm -y firefox
 
+# Install zsh and set to default
+sudo dnf install -y zsh
+chsh -s $(which zsh)
+
 # TODO: update, upgrade, & reboot. Do this manually for now.
 
 # Install fastfetch (replacement for neofetch)
