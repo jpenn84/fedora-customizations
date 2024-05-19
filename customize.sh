@@ -35,3 +35,7 @@ sudo dnf install -y gimp inkscape krita
 sudo dnf install -y python3 python3-pip
 
 # TODO: numlockx doesnt work. Figure out something else
+
+# TODO: Install SDKMan. Current flow is manual
+
+# TODO: Install OhMyZsh. Current flow is manual
