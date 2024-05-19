@@ -3,6 +3,11 @@
 # install vim
 sudo dnf -y install vim
 
+# force git to use vim
+git config --global core.editor "vim"
+
+# TODO: Generate rsa key
+
 # install RPM Fusion repos
 sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
 
