@@ -32,6 +32,10 @@ sudo dnf install -y fastfetch
 # Install VLC
 sudo dnf install -y vlc
 
+# install codecs
+sudo dnf config-manager --set-enabled fedora-cisco-openh264
+sudo dnf install-y ffmpeg --allowerasing
+
 # Install Gimp, Inkscape, and Kalligra
 sudo dnf install -y gimp inkscape krita
 
