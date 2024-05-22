@@ -45,6 +45,9 @@ sudo dnf install -y python3 python3-pip
 # install VS Code
 sudo dnf install -y code
 
+# install Stellarium
+sudo dnf install -y stellarium
+
 # TODO: numlockx doesnt work. Figure out something else
 
 # TODO: install SDKMan. Current flow is manual
