@@ -54,6 +54,9 @@ sudo dnf install -y librecad
 # install Stellarium
 sudo dnf install -y stellarium
 
+# install Hydrogen drum machine
+sudo dnf install -y hydrogen
+
 # TODO: numlockx doesnt work. Figure out something else
 
 # TODO: install SDKMan. Current flow is manual
