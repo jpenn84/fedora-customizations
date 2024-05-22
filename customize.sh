@@ -45,6 +45,12 @@ sudo dnf install -y python3 python3-pip
 # install VS Code
 sudo dnf install -y code
 
+# install Fritzing
+sudo dnf install -y fritzing
+
+# install librecad
+sudo dnf install -y librecad
+
 # install Stellarium
 sudo dnf install -y stellarium
 
