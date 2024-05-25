@@ -42,6 +42,9 @@ sudo dnf install -y gimp inkscape krita
 # install Python 3 (will likely be installed as a dependency by Gimp) and PIP
 sudo dnf install -y python3 python3-pip
 
+# Install AWS CLI
+sudo dnf install -y awscli2
+
 # install VS Code
 sudo dnf install -y code
 
